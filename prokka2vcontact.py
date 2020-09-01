@@ -158,7 +158,7 @@ def main():
 if __name__ == "__main__":
     try:
         start_time = time.time()
-        desc = __doc__.split("\n\n")[1].strip()
+        desc = __doc__.split("\n\n")[0].strip()
         parser = argparse.ArgumentParser(description=desc, epilog=epi)
         parser.add_argument(
             "-v", "--verbose", action="store_true", default=False, help="verbose output"
