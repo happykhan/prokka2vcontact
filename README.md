@@ -2,7 +2,7 @@
 
 Converts Prokka output into a form for vContact2
 
-##Usage 
+## Usage 
 
 ```
 usage: prokka2vcontact.py [-h] [-v] [--version] [-o OUTPUT] [-c] prokka_dir
